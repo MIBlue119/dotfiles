@@ -60,9 +60,9 @@ $ vim ~/.tmux/conf
        ```
     - Also has a plugin to save the config and reset[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 - [tmux-plugin-manager](https://github.com/tmux-plugins/tpm)
-    ```
-    ## Enable the tmux plugin manager
-    - Clone tpm
+    
+    - Enable the tmux plugin manager
+        - Clone tpm
     ```
     $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     ```
