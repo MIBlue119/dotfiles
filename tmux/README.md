@@ -44,6 +44,10 @@ $ vim ~/.tmux/conf
     ```
     $ tmux kill-server
     ```
+- Source the new config
+    ```
+    $ tmux source ~/.tmux.conf
+    ```
 
 ## Resource
 - [終端管理工具 tmux](https://mropengate.blogspot.com/2017/12/tmux.html)
