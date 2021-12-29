@@ -60,3 +60,15 @@ $ vim ~/.tmux/conf
        ```
     - Also has a plugin to save the config and reset[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 - [tmux-plugin-manager](https://github.com/tmux-plugins/tpm)
+
+- Copy & Paste at tmux 
+    - Ref
+       - https://www.rockyourcode.com/copy-and-paste-in-tmux/ 
+    ```
+    ## prefix weould be our setting to activate tmux hot key 
+    1. Enter copying mode:  prefix + [ 
+    2. Select the part we want:  ctrl + space 
+    3. Save the selectec part in buffer: ctrl + w 
+    4. Paste th buffer to pane: prefix + ]
+    ```
+    
