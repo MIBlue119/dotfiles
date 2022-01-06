@@ -1,5 +1,9 @@
 #  Record some commands used
 
+## Edit your `~/.gitconfig`
+
+- [Example of gitconfig](./gitconfig)
+
 
 ## Submodule 
 - Add submoudle
