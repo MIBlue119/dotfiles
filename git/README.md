@@ -2,7 +2,7 @@
 
 ## Edit your `~/.gitconfig`
 
-- [Example of gitconfig](./gitconfig)
+- [Example of gitconfig](./.gitconfig)
 
 
 ## Submodule 
