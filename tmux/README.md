@@ -44,7 +44,7 @@ $ vim ~/.tmux/conf
     ```
     $ tmux kill-server
     ```
-- Source the new config
+- Source the new config at tmux windows
     ```
     $ tmux source ~/.tmux.conf
     ```
@@ -113,12 +113,19 @@ $ vim ~/.tmux/conf
             - How to paste? 
                 - Use Prefix(Ctrl+a)+p        
     ```
+    # The setting about copy, ref: https://blog.subash.com.au/vim-style-copy-paste-in-tmux/
+    bind Enter copy-mode # enter copy mode
+    # Enable the mouse to copy mode
     set-window-option -g mode-keys vi
     bind-key -T copy-mode-vi 'v' send-keys -X begin-selection
     bind-key -T copy-mode-vi 'y' send-keys -X copy-selection-and-cancel
     bind-key p paste-buffer
 
-    # The code below is only worked for mac os 
+    # The code below is only word in MacOS
+    # You have to install reattach-to-user-namespace first
+    # $brew install reattach-to-user-namespace
+    # The code below support to pipe the contents to mac's pbcopy
+    # These command given contents to OSX clipboard
     set -g default-command "reattach-to-user-namespace -l ${SHELL}"
     bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel 'reattach-to-user-namespace pbcopy'
     ```
