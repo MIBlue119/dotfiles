@@ -50,6 +50,7 @@ $ vim ~/.tmux/conf
     ```
 
 ## Resource
+- [Manage your dotfiles](https://missing.csail.mit.edu/2019/dotfiles/)
 - [終端管理工具 tmux](https://mropengate.blogspot.com/2017/12/tmux.html)
 - https://gist.github.com/v-yarotsky/2157908
 
@@ -130,3 +131,15 @@ $ vim ~/.tmux/conf
     bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel 'reattach-to-user-namespace pbcopy'
     ```
     
+## Resources
+
+### Other people's setting
+
+- [Example to use a central config's and source the specific os's config](https://github.com/adikari/dotfiles/tree/master/tmux)
+    - Adikari use a central config `.tmux.conf`  and source specific os configs `.tmu-osx.tonf`
+        - At the bottom of `.tmux.conf` 
+        ```
+        if-shell 'test "$(uname)" = "Darwin"' 'source $TMUX_HOME/tmux-osx.conf'
+        ```
+  
+- [The most stars repo about tmux config](https://github.com/gpakosz/.tmux) 
