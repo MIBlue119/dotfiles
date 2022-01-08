@@ -101,4 +101,25 @@ $ vim ~/.tmux/conf
     3. Save the selectec part in buffer: ctrl + w 
     4. Paste th buffer to pane: prefix + ]
     ```
+    - A success way to enable the copy to clipboard of the mac 
+        - Ref: [vim copy paste style at mac](https://blog.subash.com.au/vim-style-copy-paste-in-tmux/)
+        - Install dependency: `$brew install reattach-to-user-namespace`
+        - The copy paste would support with these
+            - Enter the copy mode with
+                - Use the mouse to select the content at tmux windows 
+                - Enter with Prefix(Ctrl+a) + [
+            - Select the contents with `v` 
+            - Exit the copy mode: `y`
+            - How to paste? 
+                - Use Prefix(Ctrl+a)+p        
+    ```
+    set-window-option -g mode-keys vi
+    bind-key -T copy-mode-vi 'v' send-keys -X begin-selection
+    bind-key -T copy-mode-vi 'y' send-keys -X copy-selection-and-cancel
+    bind-key p paste-buffer
+
+    # The code below is only worked for mac os 
+    set -g default-command "reattach-to-user-namespace -l ${SHELL}"
+    bind-key -T copy-mode-vi 'y' send-keys -X copy-pipe-and-cancel 'reattach-to-user-namespace pbcopy'
+    ```
     
