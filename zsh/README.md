@@ -48,6 +48,7 @@ https://github.com/ohmyzsh/ohmyzsh
     $brew tap homebrew/cask-fonts
     $brew cask install font-meslo-lg-nerd-font
     ```
-    - Change the font of the shell preferences to `Meslo LG xxx` 
+    - Change the font of the shell preferences to `MesloLGSDZ Nerd Font` 
+    - VScode setting : press `cmd ,` to edit font family and add `MesloLGSDZ Nerd Font`
 ### Sources
 - [用 zsh + zim + powerlevel10k 讓你的 Terminal 潮又快 ](https://dwye.dev/post/zsh-zim-powerlevel10k/)
