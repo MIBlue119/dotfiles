@@ -15,3 +15,6 @@ This repo is for recording the setting of the developer environment
 ## Resources
 - [Version Control Your Dotfiles](https://missing.csail.mit.edu/2019/dotfiles/)
   - This part of the missing class is about customized your developer environments    
+- Dotfiles examples
+  - [a macos/Ubuntu dotfiles](https://github.com/alrra/dotfiles)
+  - [htlin's dotfiles for macos](https://github.com/htlin222/dotfiles)
