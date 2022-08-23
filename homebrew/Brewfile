@@ -1,0 +1,79 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Core application library for C
+brew "glib"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Cross-platform make
+brew "cmake"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Shell script to build fancy DMGs
+brew "create-dmg"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# VMware Fusion & Workstation docker-machine driver
+brew "docker-machine-driver-vmware"
+# Generic library support script
+brew "libtool"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# X11 implementation of the Remote Desktop Protocol (RDP)
+brew "freerdp"
+# GitHub command-line tool
+brew "gh"
+# Toolkit for creating graphical user interfaces
+brew "gtk+3"
+# File format designed to store large amounts of data
+brew "hdf5"
+# Configurable static site generator
+brew "hugo"
+# Asynchronous event library
+brew "libev"
+# Toolkit for embedding hypervisor capabilities in your application
+brew "hyperkit"
+# Implementation of the file(1) command
+brew "libmagic"
+# Mac App Store command-line interface
+brew "mas"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# OCaml package manager
+brew "opam"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Sound system for POSIX OSes
+brew "pulseaudio"
+# GNOME Python bindings (based on GObject Introspection)
+brew "pygobject3"
+# SOund eXchange: universal sound sample translator
+brew "sox"
+# Text interface for Git repositories
+brew "tig"
+# High-performance, platform-neutral implementation of VNC
+brew "tiger-vnc"
+# Simplified and community-driven man pages
+brew "tldr"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
