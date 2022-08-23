@@ -1,4 +1,4 @@
-# Develop env setting 
+# Dotfiles: Develop env setting 
 ![GitHub forks](https://img.shields.io/github/forks/MIBlue119/develop_env_setting?style=social)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MIBlue119/develop_env_setting)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/MIBlue119/develop_env_setting)
